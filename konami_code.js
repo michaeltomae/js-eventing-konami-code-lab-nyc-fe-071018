@@ -1,5 +1,6 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
-
+ const body = document.querySelector('body')
+ 
 // Up Up Down Down Left Right Left Right B A
 // We have an array of key codes (event.which)
 // Add an event listener somewhere so that when we press this, something happens
@@ -28,7 +29,7 @@ function onKeyDownHandler(event) {
 function init() {
   // Write your JavaScript code inside the init() function
   // Tracker keeps track of where we are in the array
-  const body = document.querySelector('body')
+ 
   body.addEventListener('keydown', onKeyDownHandler)
 }
 
