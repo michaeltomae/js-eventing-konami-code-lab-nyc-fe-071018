@@ -22,7 +22,7 @@ function onKeyDownHandler(event) {
     }
     else {
       console.log('youve messed up!!!')
-      alert('There is a mistake!')
+      window.alert('There is a mistake!')
       tracker = 0
     }
 }
