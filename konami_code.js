@@ -5,6 +5,10 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 // Add an event listener somewhere so that when we press this, something happens
 // We need to keep track of where we are in the combo
 
+function onKeyDownHandler(event) {
+  
+}
+
 function init() {
   // Write your JavaScript code inside the init() function
   // Tracker keeps track of where we are in the array
