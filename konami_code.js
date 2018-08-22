@@ -12,8 +12,9 @@ function init() {
   const body = document.querySelector('body')
   body.addEventListener('keydown', (event) => {
     if(event.which === code[tracker]){
-      tracker++
-    } else{
+      tracker++;
+    }
+    else {
       tracker = 0
     }
   })
