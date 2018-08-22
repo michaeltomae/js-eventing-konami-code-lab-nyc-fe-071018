@@ -26,7 +26,6 @@ function onKeyDownHandler(event) {
 function init() {
   // Write your JavaScript code inside the init() function
   // Tracker keeps track of where we are in the array
-  let tracker = 0
   const body = document.querySelector('body')
   body.addEventListener('keydown', (event) => {
   })
