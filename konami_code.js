@@ -29,6 +29,5 @@ function init() {
   })
 }
 
-
+// Need to call the function below
 init()
-
