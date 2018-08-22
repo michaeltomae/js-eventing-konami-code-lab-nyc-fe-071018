@@ -6,16 +6,7 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 // We need to keep track of where we are in the combo
 
 function onKeyDownHandler(event) {
-  
-}
-
-function init() {
-  // Write your JavaScript code inside the init() function
-  // Tracker keeps track of where we are in the array
-  let tracker = 0
-  const body = document.querySelector('body')
-  body.addEventListener('keydown', (event) => {
-    if (tracker === code.length){
+      if (tracker === code.length){
       event.preventDefault()
       return
     }
@@ -30,6 +21,14 @@ function init() {
       console.log('youve messed up!!!')
       tracker = 0
     }
+}
+
+function init() {
+  // Write your JavaScript code inside the init() function
+  // Tracker keeps track of where we are in the array
+  let tracker = 0
+  const body = document.querySelector('body')
+  body.addEventListener('keydown', (event) => {
   })
 }
 
