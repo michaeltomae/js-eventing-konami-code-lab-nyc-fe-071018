@@ -29,8 +29,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   // Tracker keeps track of where we are in the array
   const body = document.querySelector('body')
-  body.addEventListener('keydown', (event) => {
-  })
+  body.addEventListener('keydown', onKeyDownHandler)
 }
 
 // Need to call the function below
