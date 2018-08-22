@@ -11,11 +11,16 @@ function init() {
   let tracker = 0
   const body = document.querySelector('body')
   body.addEventListener('keydown', (event) => {
-    if (event.which === code[tracker]){
-      tracker++;
+    if (event.which === code[tracker]) {
+      console.log('Success!')
+      tracker++
+      if (tracker === code.length) {
+        alert('You found it!')
+      }
     }
     else {
-      tracker = 0;
+      console.log('youve messed up!!!')
+      tracker = 0
     }
   })
 }
