@@ -8,7 +8,7 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 function init() {
   // Write your JavaScript code inside the init() function
   // Tracker keeps track of where we are in the array
-  const tracker = 0
+  let tracker = 0
   const body = document.querySelector('body')
   body.addEventListener('keydown', (event) => {
     if(event.which === code[tracker]){
@@ -22,3 +22,4 @@ function init() {
 
 init()
 
+// Need to call the function below
