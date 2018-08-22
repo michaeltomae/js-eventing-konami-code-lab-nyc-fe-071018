@@ -15,7 +15,7 @@ function init() {
       tracker++;
     }
     else {
-      tracker = 0
+      tracker = 0;
     }
   })
 }
