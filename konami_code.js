@@ -10,7 +10,6 @@ let tracker = 0
 function onKeyDownHandler(event) {
       const key = parseInt(event.detail || event.which);
       if (tracker === code.length){
-      window.alert('You found it!')
       event.preventDefault()
       return
     }
