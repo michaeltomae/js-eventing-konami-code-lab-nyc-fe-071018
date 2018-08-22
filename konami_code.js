@@ -11,6 +11,10 @@ function init() {
   let tracker = 0
   const body = document.querySelector('body')
   body.addEventListener('keydown', (event) => {
+    if (tracker === code.length){
+      event.preventDefault()
+      return
+    }
     if (event.which === code[tracker]) {
       console.log('Success!')
       tracker++
